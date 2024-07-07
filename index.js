@@ -440,14 +440,8 @@ animate();
     });
 
     tl.to(camera.position, {      //MOVE IN from gate
-        z: cameraPosZ-700,
+        z: cameraPosZ-900,
         duration: 4.5
-    })
-
-
-.to(camera.rotation, {
-        y: 3.14,                // turn left
-        duration: 2
     })
 	    
     .to(camera.rotation, {
