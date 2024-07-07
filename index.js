@@ -446,12 +446,8 @@ animate();
 
 
 .to(camera.rotation, {
-        y: Math.PI,                // turn left
-        duration: 2.5
-    })
-.to(camera.rotation, {
-        y: Math.PI,                // turn left
-        duration: 2.5
+        y: 3.14,                // turn left
+        duration: 2
     })
 	    
     .to(camera.rotation, {
